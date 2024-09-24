@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(116, 195, 241);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.card{
+    height: 450px;
+    max-width: 300px;
+    background-color: #fff;
+    color: black;
+   border-radius: 10px;
+   
+}
+
+.code{
+    background-color: rgb(47, 187, 248);
+    height: 50%;
+    margin: 30px 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QR-code{
+    height: 60%;
+    width: 60%;
+    margin: 20px 15px;
+    background-color: #fff;
+    
+}
+
+h1{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(127, 225, 255);
+    padding: 10px;
+    
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    color: rgb(57, 56, 56);
+}
